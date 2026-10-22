@@ -2,7 +2,7 @@
   "name": "vitest-shared-server-externals",
   "private": true,
   "type": "module",
-  "scripts": { "test": "vitest run --maxWorkers=1" },
+  "scripts": { "test": "vitest run" },
   "dependencies": { "dep": "file:./dep" },
   "devDependencies": { "vitest": "5.0.5" }
 }
